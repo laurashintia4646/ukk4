@@ -15,7 +15,7 @@ if (isset($_POST['edit'])) {
     $gambar_buku = $_POST['gambar_buku'];
 
     // Update query
-    $update_query = "UPDATE perpusta SET 
+    $update_query = "UPDATE buku SET 
         kode_buku='$kode_buku', 
         no_buku='$no_buku', 
         judul_buku='$judul_buku', 
